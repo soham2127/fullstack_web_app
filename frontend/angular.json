@@ -31,11 +31,15 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
-            ],
+  {
+    "glob": "**/*",
+    "input": "public",
+    "output": "/"
+  },
+  "src/favicon.ico",
+  "src/assets",
+  "src/_redirects"
+],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
